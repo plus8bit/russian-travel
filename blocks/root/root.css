@@ -1,0 +1,7 @@
+.root {
+  max-width: 1280px;
+  min-height: 6875px;
+  margin: auto;
+  overflow: hidden;
+  font-family: Inter, Arial, sans-serif;
+}
