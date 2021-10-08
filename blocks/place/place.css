@@ -1,0 +1,11 @@
+.place {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .2fr .8fr;
+  grid-template-areas: 
+    "title website"
+    "image paragraph";
+  column-gap: 40px;
+  margin: 0 auto 80px;
+}
