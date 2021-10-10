@@ -2,5 +2,10 @@
   font-size: 18px;
   line-height: 22px;
   font-weight: normal;
+  transition: opacity .3s ease-in-out;
   color: #fff;
+}
+
+.place__link:hover {
+  opacity: .7;
 }

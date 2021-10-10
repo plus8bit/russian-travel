@@ -7,3 +7,16 @@
   padding: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+    margin: 34px auto 0;
+  }
+}
