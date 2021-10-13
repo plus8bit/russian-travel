@@ -9,3 +9,27 @@
   column-gap: 40px;
   margin: 0 auto 80px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    column-gap: 25px;
+    margin: 0 auto 64px;
+  }
+}

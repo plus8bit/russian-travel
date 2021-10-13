@@ -3,9 +3,11 @@
   line-height: 22px;
   font-weight: normal;
   transition: opacity .3s ease-in-out;
+  margin-left: 16px;
   color: #fff;
 }
 
 .place__link:hover {
   opacity: .7;
 }
+
